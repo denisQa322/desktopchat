@@ -31,7 +31,7 @@ body, html{
 
 .layout{
     display: flex;
-    height: 100vh;
+    height: 100%;
     @include bg-default();
     background-image: url('../images/main-background.png');
 }
@@ -375,8 +375,9 @@ body, html{
         }
     }
 .chat-input-message{
-        // padding: toVw(24.5px) toVw(24px) toVw(25px) toVw(23px);
-        padding-top: toVw(24.5px);
+        
+        padding-top: toVw(30px);
+        bottom: 0;
         position: relative;
         @include flex-center();
         &::before{
@@ -391,6 +392,7 @@ body, html{
             display: flex;
             label{
                 margin-right: toVw(18.5px);
+                cursor: pointer;
                     img{
                         height: toVw(22px);
                         width: toVw(13.5px);
@@ -407,6 +409,7 @@ body, html{
                 height: toVw(22px);
                 border: none;
                 background-color: white;
+                cursor: pointer;
             }
             &__text{
                 input{
@@ -421,7 +424,11 @@ body, html{
                 }
             }
         &__smile{
+            cursor: pointer;
             margin-right: toVw(24px);
+            &:hover{
+                width: toVw(25px);
+            }
         }
     }
 }
@@ -435,7 +442,7 @@ body, html{
     }
 
     &-head{
-        margin-left: toVw(20.5px);
+        padding-left: toVw(20.5px);
         &__name{
             font-weight: 700;
             font-size: toVw(16px);
@@ -452,6 +459,7 @@ body, html{
         padding-left: toVw(18px);
         padding-bottom: toVw(18.5px);
         div{
+            cursor: pointer;
             width: toVw(22px);
             height: toVw(22px);
             margin-right: toVw(10px);
@@ -467,12 +475,13 @@ body, html{
 
     &-button{
         display: flex;
-        margin-bottom: toVw(18.5px);
-        margin-left: toVw(18px);
+        padding-bottom: toVw(18.5px);
+        padding-left: toVw(18px);
         & > button{
             border: none;
             height: toVw(25px);
             border-radius: toVw(7px);
+            cursor: pointer;
         }
         button{
             padding: toVw(5px) toVw(41px);
@@ -497,7 +506,7 @@ body, html{
             font-size: toVw(14px);
             margin-bottom: toVw(11px);
             &:last-child{
-                margin-bottom: toVw(200.5px);
+                margin-bottom: toVw(235.5px);
             }
         }
 
@@ -507,5 +516,6 @@ body, html{
         margin-left: toVw(167.5px);
         width: toVw(10px);
         height: toVw(16px);
+        cursor: pointer;
     }
 }

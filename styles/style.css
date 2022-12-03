@@ -16,7 +16,7 @@ body, html {
 
 .layout {
   display: flex;
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -376,7 +376,8 @@ body, html {
   z-index: 1;
 }
 .chat .chat-input-message {
-  padding-top: 1.75vw;
+  padding-top: 2.1428571429vw;
+  bottom: 0;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -396,6 +397,7 @@ body, html {
 }
 .chat .chat-input-message__file-micro label {
   margin-right: 1.3214285714vw;
+  cursor: pointer;
 }
 .chat .chat-input-message__file-micro label img {
   height: 1.5714285714vw;
@@ -411,6 +413,7 @@ body, html {
   height: 1.5714285714vw;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 .chat .chat-input-message__text input {
   width: 50vw;
@@ -433,7 +436,11 @@ body, html {
   color: #919191;
 }
 .chat .chat-input-message__smile {
+  cursor: pointer;
   margin-right: 1.7142857143vw;
+}
+.chat .chat-input-message__smile:hover {
+  width: 1.7857142857vw;
 }
 
 .info {
@@ -444,7 +451,7 @@ body, html {
   margin-bottom: 1.1071428571vw;
 }
 .info-head {
-  margin-left: 1.4642857143vw;
+  padding-left: 1.4642857143vw;
 }
 .info-head__name {
   font-weight: 700;
@@ -461,6 +468,7 @@ body, html {
   padding-bottom: 1.3214285714vw;
 }
 .info-socials div {
+  cursor: pointer;
   width: 1.5714285714vw;
   height: 1.5714285714vw;
   margin-right: 0.7142857143vw;
@@ -474,13 +482,14 @@ body, html {
 }
 .info-button {
   display: flex;
-  margin-bottom: 1.3214285714vw;
-  margin-left: 1.2857142857vw;
+  padding-bottom: 1.3214285714vw;
+  padding-left: 1.2857142857vw;
 }
 .info-button > button {
   border: none;
   height: 1.7857142857vw;
   border-radius: 0.5vw;
+  cursor: pointer;
 }
 .info-button button {
   padding: 0.3571428571vw 2.9285714286vw;
@@ -504,10 +513,11 @@ body, html {
   margin-bottom: 0.7857142857vw;
 }
 .info-main p:last-child {
-  margin-bottom: 14.3214285714vw;
+  margin-bottom: 16.8214285714vw;
 }
 .info .arrow-right {
   margin-left: 11.9642857143vw;
   width: 0.7142857143vw;
   height: 1.1428571429vw;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
