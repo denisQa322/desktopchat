@@ -434,4 +434,80 @@ body, html {
 }
 .chat .chat-input-message__smile {
   margin-right: 1.7142857143vw;
+}
+
+.info {
+  width: 14.2857142857vw;
+  background-color: rgb(240, 238, 238);
+}
+.info img {
+  margin-bottom: 1.1071428571vw;
+}
+.info-head {
+  margin-left: 1.4642857143vw;
+}
+.info-head__name {
+  font-weight: 700;
+  font-size: 1.1428571429vw;
+}
+.info-head__text {
+  font-size: 0.8571428571vw;
+  margin-top: 0.25vw;
+}
+.info-socials {
+  padding-top: 1.4285714286vw;
+  display: flex;
+  padding-left: 1.2857142857vw;
+  padding-bottom: 1.3214285714vw;
+}
+.info-socials div {
+  width: 1.5714285714vw;
+  height: 1.5714285714vw;
+  margin-right: 0.7142857143vw;
+  border-radius: 50%;
+  background-color: #E8E8EB;
+  text-align: center;
+}
+.info-socials div img {
+  padding: 0.3571428571vw 0.3571428571vw 0.3571428571vw 0.5vw;
+  opacity: 0.5;
+}
+.info-button {
+  display: flex;
+  margin-bottom: 1.3214285714vw;
+  margin-left: 1.2857142857vw;
+}
+.info-button > button {
+  border: none;
+  height: 1.7857142857vw;
+  border-radius: 0.5vw;
+}
+.info-button button {
+  padding: 0.3571428571vw 2.9285714286vw;
+  background-color: #3577EF;
+  color: #fff;
+  margin-right: 0.2142857143vw;
+  font-weight: 700;
+}
+.info-button button.arrow {
+  padding: 0.6785714286vw 0.6071428571vw;
+}
+.info-main {
+  margin-left: 1.5357142857vw;
+}
+.info-main h4 {
+  color: #5F6164;
+  margin-bottom: 0.1428571429vw;
+}
+.info-main p {
+  font-size: 1vw;
+  margin-bottom: 0.7857142857vw;
+}
+.info-main p:last-child {
+  margin-bottom: 14.3214285714vw;
+}
+.info .arrow-right {
+  margin-left: 11.9642857143vw;
+  width: 0.7142857143vw;
+  height: 1.1428571429vw;
 }/*# sourceMappingURL=style.css.map */
